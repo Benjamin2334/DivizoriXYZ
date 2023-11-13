@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+int n, x, y, z;
+int main()
+{
+    cin>>n;
+    if(n%6==0){
+        x=n/6;
+        z=n/2;
+        y=(x+z)/2;
+        cout<<x<<" "<<y<<" "<<z;
+    }
+    else{
+        cout<<"nu exista";
+    }
+    
+
+    return 0;
+}
